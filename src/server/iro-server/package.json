@@ -6,5 +6,8 @@
   "author": {
     "name": "Jef King",
     "email": "jef@agilebusinesscloud.com"
+  },
+  "dependencies": {
+    "webservice": "^0.5.1"
   }
 }
