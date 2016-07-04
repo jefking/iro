@@ -4,7 +4,7 @@
   "description": "iro-server",
   "main": "server.js",
   "author": {
-    "name": "jefkin",
-    "email": ""
+    "name": "Jef King",
+    "email": "jef@agilebusinesscloud.com"
   }
 }
