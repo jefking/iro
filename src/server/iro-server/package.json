@@ -1,0 +1,10 @@
+{
+  "name": "iro-server",
+  "version": "0.0.0",
+  "description": "iro-server",
+  "main": "server.js",
+  "author": {
+    "name": "jefkin",
+    "email": ""
+  }
+}
