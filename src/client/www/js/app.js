@@ -7,12 +7,18 @@ angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function () {
-        var c = '#ffffff';
-        var letters = '0123456789ABCDEF'.split('');
-        var c = '#';
-        for (var i = 0; i < 6; i++) {
-            c += letters[Math.floor(Math.random() * 16)];
-        }
-        document.body.style.backgroundColor = c;
+        setColor();
+        setInterval(setColor, 1000);
   });
 })
+
+function setColor()
+{
+    var c = '#ffffff';
+    var letters = '0123456789ABCDEF'.split('');
+    var c = '#';
+    for (var i = 0; i < 6; i++) {
+        c += letters[Math.floor(Math.random() * 16)];
+    }
+    document.body.style.backgroundColor = c;
+}
