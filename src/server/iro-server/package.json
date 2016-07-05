@@ -8,6 +8,6 @@
     "email": "jef@agilebusinesscloud.com"
   },
   "dependencies": {
-    "webservice": "^0.5.1"
+    "express": "^4.14.0"
   }
 }
