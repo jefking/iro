@@ -11,7 +11,14 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send({ color: '#ffffff' });
+    var c = '#ffffff';
+    var letters = '0123456789ABCDEF'.split('');
+    var c = '#';
+    for (var i = 0; i < 6; i++) {
+        c += letters[Math.floor(Math.random() * 16)];
+    }
+    var utc = Date.now();
+    res.send({ color: c, at: utc });
 });
 
 app.listen(port);
