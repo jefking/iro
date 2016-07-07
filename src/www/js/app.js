@@ -1,10 +1,10 @@
 'use strict';
 
-var iro = angular.module('iro', ['ionic']);
+var iroApp = angular.module('iroApp', ['ionic']);
 
-iro.controller('server', ['$scope', '$http', function ($scope, $http) {
+iroApp.controller('server', ['$scope', '$http', function ($scope, $http) {
     $http.get('http://iro.azurewebsites.net/').
-       success(function (data) {
-           $scope.payload = data;
-       });
+   success(function (data) {
+       $scope.payload = data;
+   });
 }]);
