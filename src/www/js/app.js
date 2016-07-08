@@ -11,5 +11,5 @@ iroApp.controller('server', ['$scope', '$http', '$interval', function ($scope, $
         });
     }
 
-    $interval(callback, 5000);
+    $interval(callback, 15000);
 }]);
