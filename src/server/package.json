@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "radISH",
   "main": "app.js",
+  "license": "none",
   "author": "Jef King <jef@agilebusinesscloud.com>",
   "dependencies": {
     "express": "^4.14.0"
@@ -13,5 +14,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+"repository": {
+  "type": "git",
+  "url": "git://github.com/jefking/iro.git"
+}
 }
