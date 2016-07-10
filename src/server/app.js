@@ -11,6 +11,11 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.get('/color', function (req, res, next) {
+    res.send({ color: universalColor, at: lastSetAt });
+    res.status(200);
+});
+
 var universalColor = '#ffffff';
 var lastSetAt = Date.now();
 
@@ -26,14 +31,7 @@ function generateColor()
     lastSetAt = Date.now();
 }
 
-app.get('/color', function (req, res, next) {
-    res.send({ color: universalColor, at: lastSetAt });
-    res.status(200);
-});
-
-
 app.use(express.static('www'));
-
 
 module.exports = app;
 
