@@ -16,7 +16,7 @@ app.get('/color', function (req, res, next) {
     res.status(200);
 });
 
-var universalColor = '#ffffff';
+var universalColor = '#88385c';
 var lastSetAt = Date.now();
 
 function generateColor()
