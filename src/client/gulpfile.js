@@ -29,7 +29,7 @@ gulp.task('sass', function(done) {
 });
 
 gulp.task("deploy", function () {
-  return gulp.src(["**"])
+  return gulp.src(["./www/**"])
       .pipe(zip("deploy.zip"))
-      .pipe(gulp.dest("./"));
+      .pipe(gulp.dest("./www/"));
 });
