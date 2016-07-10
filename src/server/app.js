@@ -1,9 +1,8 @@
 ﻿var express = require('express');
 
 var app = express();
-//app.set('port', process.env.PORT || 3000);
 
-//var server = app.listen(process.env.PORT || 3000);
+var server = app.listen(process.env.PORT || 3000);
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -16,7 +15,7 @@ app.get('/color', function (req, res, next) {
     res.status(200);
 });
 
-var universalColor = '#ffffff';
+var universalColor = '#88385c';
 var lastSetAt = Date.now();
 
 function generateColor()
