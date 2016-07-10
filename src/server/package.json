@@ -1,7 +1,7 @@
 {
-  "name": "iro-server",
-  "version": "0.0.1",
-  "description": "iro-server",
+  "name": "radish-server",
+  "version": "0.0.2",
+  "description": "radISH",
   "main": "app.js",
   "author": "Jef King <jef@agilebusinesscloud.com>",
   "dependencies": {
