@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "radISH",
   "main": "app.js",
-  "license": "none",
+  "license": "UNLICENSED",
   "author": "Jef King <jef@agilebusinesscloud.com>",
   "dependencies": {
     "express": "^4.14.0"
