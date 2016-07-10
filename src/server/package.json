@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "iro-server",
   "main": "app.js",
-  "author": {
-    "name": "Jef King",
-    "email": "jef@agilebusinesscloud.com"
-  },
+  "author": "Jef King <jef@agilebusinesscloud.com>",
   "dependencies": {
     "express": "^4.14.0",
     "socket.io": "^1.4.8"
-  }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
