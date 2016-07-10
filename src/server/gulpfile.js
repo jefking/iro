@@ -14,6 +14,6 @@ gulp.task("deploy", function () {
 const fs = require('fs');
 
 gulp.task('compile', function () {
-  gulp.src(['**/*.ts', '!**/node_modules/**'])
+  gulp.src(['**/*.js', '!**/node_modules/**'])
   .pipe(gulp.dest('./'))
 });
