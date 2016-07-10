@@ -6,7 +6,7 @@ gulp.task('default', function() {
 });
 
 gulp.task("deploy", function () {
-  return gulp.src(["**"])
+  return gulp.src(["*.{js,ico}"])
       .pipe(zip("deploy.zip"))
       .pipe(gulp.dest("./"));
 });
