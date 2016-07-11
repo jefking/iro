@@ -18,8 +18,7 @@ app.get('/color', function (req, res, next) {
 var universalColor = '#88385c';
 var lastSetAt = Date.now();
 
-function generateColor()
-{
+function generateColor() {
     var c = '#';
     var letters = '0123456789ABCDEF'.split('');
     for (var i = 0; i < 6; i++) {
