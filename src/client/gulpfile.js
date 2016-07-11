@@ -6,7 +6,7 @@ gulp.task('default', function() {
 });
 
 gulp.task("deploy", function () {
-  return gulp.src(["./www/**"])
+  return gulp.src(["./www"])
       .pipe(zip("deploy.zip"))
-      .pipe(gulp.dest("./www/"));
+      .pipe(gulp.dest("./"));
 });
