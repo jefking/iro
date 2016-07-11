@@ -29,7 +29,7 @@ function generateColor() {
     lastSetAt = Date.now();
 }
 
-app.use(express.static('www'));
+app.use(express.static('/'));
 
 module.exports = app;
 
