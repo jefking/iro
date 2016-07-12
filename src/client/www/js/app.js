@@ -11,5 +11,5 @@ radishApp.controller('server', ['$scope', '$http', '$interval', function ($scope
         });
     }
 
-    $interval(callback, 15000);
+    $interval(callback, 5000);
 }]);
