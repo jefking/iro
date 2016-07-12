@@ -1,8 +1,8 @@
 'use strict';
 
-var iroApp = angular.module('iroApp', ['ionic']);
+var radishApp = angular.module('radishApp', ['ionic']);
 
-iroApp.controller('server', ['$scope', '$http', '$interval', function ($scope, $http, $interval) {
+radishApp.controller('server', ['$scope', '$http', '$interval', function ($scope, $http, $interval) {
    
     function callback() {
         $http.get('http://iro.azurewebsites.net/color').

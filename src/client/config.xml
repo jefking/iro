@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <widget id="com.iro.radish" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" defaultlocale="en-us">
-  <name>iro</name>
+  <name>radish</name>
   <description>All the colors of the rainbow.</description>
   <author email="you@example.com" href="http://example.com.com/">Jef King</author>
   <content src="index.html" />
