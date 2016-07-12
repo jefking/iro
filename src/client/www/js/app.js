@@ -1,6 +1,6 @@
 'use strict';
 
-var radishApp = angular.module('radishApp');
+var radishApp = angular.module('radishApp', []);
 
 radishApp.controller('server', ['$scope', '$http', '$interval', function ($scope, $http, $interval) {
    
